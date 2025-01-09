@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Style for the h1 heading */
+h1 {
+    color: red;           /* Sets the text color to red */
+    font-size: 48px;      /* Makes the font size large */
+    text-align: center;   /* Centers the heading text */
+    margin-top: 50px;     /* Adds space above the heading */
+}
+
+/* Style for the button using the class */
+.click-button {
+    background-color: blue;          /* Sets the button's background color to blue */
+    color: white;                    /* Sets the button's text color to white */
+    padding: 15px 30px;              /* Adds padding inside the button */
+    font-size: 18px;                 /* Increases the font size of the button text */
+    border: none;                    /* Removes the default border */
+    border-radius: 5px;              /* Rounds the corners of the button */
+    cursor: pointer;                 /* Changes the cursor to a pointer on hover */
+    display: block;                  /* Makes the button a block element */
+    margin: 20px auto;               /* Centers the button horizontally with margin */
+    transition: background-color 0.3s; /* Adds a smooth transition for hover effect */
+}
+
+/* Hover effect for the button */
+.click-button:hover {
+    background-color: darkblue;      /* Darkens the button color when hovered */
+}
+
+/* Style for the counter display */
+#counter {
+    text-align: center;               /* Centers the counter text */
+    font-size: 24px;                  /* Sets a readable font size */
+    margin-top: 20px;                 /* Adds space above the counter */
+    color: #333;                      /* Sets a dark gray color for the text */
+}
